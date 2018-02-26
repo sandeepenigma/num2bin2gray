@@ -9,7 +9,7 @@ while quotient != 0:
     quotient = quotient//2
 
 
-print(binary)
+print("Binary format of", num ,"is", binary)
 
 gray = [binary[0]]
 lastindex = len(binary)-1
@@ -21,4 +21,4 @@ while  lastindex != 0:
     i += 1
     lastindex -= 1
 
-print("Gray code of above binary number",gray)
+print("Gray code of", binary ,"is", gray)
